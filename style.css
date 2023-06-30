@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.navbar{
+    background-color:aquamarine;
+    
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.navlogo{
+    height:90px;
+    width :100px;
+    
+    border: 2px solid transparent;
+    
+    
+}
+.logo{
+    background-image: url("amazonlogo.png");
+    height:90px;
+    width :100px;
+    background-size: cover;
+}
+.navlogo:hover{
+    border: 2px solid black;
+}
+.nav{
+    color:white;
+
+}
+.addlogo{
+
+    display: flex;
+    border: 2px solid transparent;
+}
+.addlogo:hover{
+    border: 2px solid  black;
+}
+.first{
+    
+}
+
+.slogo{
+    background-color: aliceblue;
+    display:flex;
+    align-items: center;
+    
+}
+.searchbar{
+    display:flex;
+    width:620px;
+    height:40px;
+    border-radius: 4px;
+    
+}
+.sinput{
+width:500px;
+}
+.flag{
+    height:15px;
+    width:40px;
+    display: flex;
+    align-items: center;
+    border:2px solid transparent;
+}
+.flagicon:hover{
+    borer:2px solid black;
+}
+.flagicon{
+    height:30px;
+    width:40px;
+    background-image: url(flag.jpg);
+    background-size: cover;
+    border:2px solid transparent;
+}
+.hello{
+    border:2px solid transparent;
+}
+.hello:hover{
+    border:2px solid black;
+}
+.order{
+    border:2px solid transparent;
+}
+.order:hover{
+    border:2px solid black;
+}
+.navbar2{
+    height:40px;
+    background-color:azure;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly
+}
+.menu{
+    display:flex;
+}
+.app{
+    display:flex
+}
+.hero{
+    display:flex;
+}
+.text{
+    position: relative;
+    position: bottom ;
+    background-color: antiquewhite;
+}
+.content{
+    display:flex;
+    justify-content: space-around;
+}
+.automotive{
+    text-size-adjust: 1rem;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.homeappliances{
+    text-size-adjust: 1rem;
+    text-align: center;
+    background-color: antiquewhite;
+}.electonics{
+    text-size-adjust: 1rem;
+    text-align: center;
+    background-color: antiquewhite;
+}.ticket{
+    text-size-adjust: 1rem;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.message{
+    text-align: center;
+    border:2px solid goldenrod;
+    width: 1350px;
+}
+.button{
+    background-color: goldenrod;
+}
+.message2{
+    background-color:cadetblue;
+    text-align: center;
+    height:50px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-size-adjust: 70%;
+}
+.end{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color:white;
+    height:400px;
+}
